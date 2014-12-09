@@ -26,7 +26,7 @@ def extract_version_from_setup():
     else:
         raise FileNotFoundError("unable to find setup.py, tried: " + setup)
 
-project_var_name = "project_name"
+project_var_name = "ELDM"
 author           = "author"
 version          = extract_version_from_setup()
 
