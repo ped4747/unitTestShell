@@ -48,7 +48,7 @@ if os.path.exists("version.txt") :
 else :
     subversion = 1   
 
-project_var_name    = "project_name"
+project_var_name    = "ELDM"
 sversion            = "0.0"
 versionPython       = "%s.%s" % (sys.version_info.major, sys.version_info.minor)
 path                = "Lib/site-packages/" + project_var_name
@@ -144,10 +144,10 @@ elif "build_sphinx" in sys.argv:
         from pyquickhelper import fLOG, generate_help_sphinx
 
         fLOG (OutputPrint = True)
-        project_name = os.path.split(os.path.split(os.path.abspath(__file__))[0])[-1]
+        ELDM = os.path.split(os.path.split(os.path.abspath(__file__))[0])[-1]
         # remove this line
-        project_name = "project_name"
-        generate_help_sphinx(project_name)
+        ELDM = "ELDM"
+        generate_help_sphinx(ELDM)
 
 elif "unittests" in sys.argv:
 
