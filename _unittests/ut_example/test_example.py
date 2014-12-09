@@ -23,9 +23,9 @@ except ImportError :
     
 
 from pyquickhelper import fLOG
-from src.project_name.subproject.myexample import myclass
-from src.project_name.subproject.myexampleb import myclassb
-from src.project_name.subproject2.myexample2 import myclass2
+from src.ELDM.subproject.myexample import myclass
+from src.ELDM.subproject.myexampleb import myclassb
+from src.ELDM.subproject2.myexample2 import myclass2
 
 
 
