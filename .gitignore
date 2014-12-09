@@ -225,7 +225,7 @@ out_*
 version.txt
 _doc/sphinxdoc/source/python_template/
 _doc/sphinxdoc/source/python_name/
-_doc/sphinxdoc/source/project_name/
+_doc/sphinxdoc/source/ELDM/
 _doc/sphinxdoc/source/license.rst
 _doc/sphinxdoc/source/coverage/*
 */sphinxdoc/source/all*.rst
